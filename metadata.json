@@ -1,0 +1,6 @@
+{
+  "name": "Gemini Quiz Whiz",
+  "description": "An interactive, Kahoot-style quiz game platform where trivia questions are generated on the fly by Gemini. Challenge your friends or yourself on any topic imaginable!",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
