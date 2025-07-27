@@ -30,7 +30,7 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onCreateQuiz, loading, error,
             >
                 <ArrowLeftIcon className="w-6 h-6"/>
             </button>
-            <h1 className="text-5xl font-black text-white drop-shadow-lg mb-2">Gemini Quiz Whiz</h1>
+            <h1 className="text-5xl font-black text-white drop-shadow-lg mb-2">Tavin Quiz</h1>
             <p className="text-xl text-indigo-200 mb-8">Crie um quiz sobre qualquer tópico em segundos!</p>
             <form onSubmit={handleSubmit} className="flex flex-col gap-6">
                 <input
