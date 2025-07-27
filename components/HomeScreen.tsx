@@ -10,8 +10,8 @@ interface HomeScreenProps {
 const HomeScreen: React.FC<HomeScreenProps> = ({ onNavigateToCreate, onNavigateToJoin }) => {
     return (
         <div className="text-center animate-fade-in flex flex-col items-center justify-center h-full py-12">
-            <h1 className="text-6xl md:text-8xl font-black text-gradient drop-shadow-lg mb-4 animate-float">Gemini Quiz Whiz</h1>
-            <p className="text-xl text-indigo-200 mb-12 max-w-2xl">O jogo de trivia com IA onde toda rodada é uma surpresa. Crie seu próprio quiz ou junte-se a um amigo!</p>
+            <h1 className="text-6xl md:text-8xl font-black text-gradient drop-shadow-lg mb-4 animate-float">TAvin Quiz</h1>
+            <p className="text-xl text-indigo-200 mb-12 max-w-2xl">Crie seu próprio quiz ou junte-se a um amigo!</p>
             <div className="flex flex-col md:flex-row gap-6">
                 <button
                     onClick={onNavigateToCreate}
